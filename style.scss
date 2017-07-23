@@ -70,7 +70,7 @@ p {
 }
 
 a {
-  color: #2cf15c;
+  color: #aaaaaa;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -225,14 +225,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #2cf15c;
+    color: #aaaaaa;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: #2cf15c;
+      color: #aaaaaa;
     }
   }
 }
