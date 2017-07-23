@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $4d4d4d;
+	background: $4d4d4d;
+  font: 18px/1.4 Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: 000000;
 }
 
 .container {
@@ -28,11 +28,12 @@ body {
   max-width: 940px;
   padding: 0 10px;
   width: 100%;
+  background-color: #191919
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
-  color: $2cf15c;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #2cf15c;
   font-weight: bold;
 
   line-height: 1.7;
@@ -47,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: 2cf15c;
+    color: #2cf15c;
   }
 }
 
@@ -156,7 +157,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px dotted $2cf15c;
+  border-bottom: 1px dotted #2cf15c;
 
   @include mobile {
     text-align: center;
